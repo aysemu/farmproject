@@ -1,14 +1,8 @@
 "use client";
-import { useRouter } from "next/navigation";
-
+//import { useRouter } from "next/navigation";
+import Farm from "./Farm";
 export default function Home() {
-  const router = useRouter();
-
-
-
-  return (
-    <div style={{ display: "flex", gap: "10px" }}>
-      
-    </div>
-  );
+ // const router = useRouter();
+ return <Farm/>
+   
 }
